@@ -1,0 +1,8 @@
+# Copy this to variables.auto.tfvars and fill in your Azure credentials
+
+client_id       = "your-client-id"
+client_secret   = "your-client-secret"
+subscription_id = "your-subscription-id"
+tenant_id       = "your-tenant-id"
+resource_group  = "your-resource-group"
+location        = "eastus"

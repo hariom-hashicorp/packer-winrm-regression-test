@@ -1,0 +1,20 @@
+# Packer
+crash.log
+*.log
+packer-manifest.json
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.terraform/
+
+# Variables
+variables.auto.tfvars
+!variables.auto.tfvars.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
