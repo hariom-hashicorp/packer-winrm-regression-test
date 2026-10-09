@@ -1,4 +1,4 @@
-terraform {
+packer {
   required_plugins {
     azure = {
       source  = "github.com/hashicorp/azure"
@@ -31,7 +31,7 @@ source "azure-arm" "windows" {
   winrm_use_ssl       = true
   winrm_port          = 5986
   winrm_insecure      = true
-  winrm_timeout       = "30m"
+  # winrm_timeout       = "30m"
 
   # NOTE: Missing winrm_connect_timeout causes 403 Forbidden!
   # This is the bug in packer-plugin-sdk 0.6.11

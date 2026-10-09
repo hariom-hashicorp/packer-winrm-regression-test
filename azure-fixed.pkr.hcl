@@ -1,4 +1,4 @@
-terraform {
+packer {
   required_plugins {
     azure = {
       source  = "github.com/hashicorp/azure"
