@@ -2,7 +2,7 @@
 
 Source: https://github.com/hashicorp/packer-plugin-sdk/issues/374
 
-The Amazon source block, plugin requirements, and user-data script were supplied by the reporter and are preserved without formatting or configuration changes. The `...` separators and surrounding prose are not HCL and were not included in the HCL files.
+The Amazon source block, plugin requirements, and user-data script were supplied by the reporter. The Amazon source block is formatted and explicitly selects `ssh_interface = "private_ip"` to match the private IP shown in the reporter's logs; the other supplied source settings are retained. The `...` separators and surrounding prose are not HCL and were not included in the HCL files.
 
 ## Environment reported
 
